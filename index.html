@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body
+    style="background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');">
+    <div
+        style="text-align:center; padding:5px; border: 5px solid rgb(255, 255, 255); width: 51%; background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhJGugy_xpvz09VpP2xKMZmgTrTodTxqa9XA&usqp=CAU'); margin: 3% auto;">
+        <div style="text-align:center; margin:5px">
+            <input id="result" class="result" type="text"
+                style="width: 90%; padding: 3%; border-radius: 2px; margin-bottom: 20px;">
+        </div>
+        <div>
+            <div style="text-align:center; margin:5px">
+                <button class="btn" onclick="getNumber('7')">7</button>
+                <button class="btn" onclick="getNumber('8')">8</button>
+                <button class="btn" onclick="getNumber('9')">9</button>
+                <button class="btn" onclick="getNumber('/')">/</button>
+            </div>
+
+            <div style="text-align:center; margin:5px;">
+                <button class="btn" onclick="getNumber('4')">4</button>
+                <button class="btn" onclick="getNumber('5')">5</button>
+                <button class="btn" onclick="getNumber('6')">6</button>
+                <button class="btn" onclick="getNumber('-')">-</button>
+            </div>
+
+            <div style="text-align:center; margin:5px;">
+                <button class="btn" onclick="getNumber('1')">1</button>
+                <button class="btn" onclick="getNumber('2')">2</button>
+                <button class="btn" onclick="getNumber('3')">3</button>
+                <button class="btn" onclick="getNumber('*')">*</button>
+            </div>
+
+            <div style="text-align:center;margin:5px;">
+                <button onclick="clearResult()">C</button>
+                <button onclick="getNumber('0')">0</button>
+                <button onclick="getNumber('+')">+</button>
+                <button onclick="getResult('=')">=</button>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+    <div style="text-align:center;color: white;">
+        <h1>Submitted By: Muhammad Yahya Kashif (WM-8586)</h1>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
